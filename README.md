@@ -1,4 +1,4 @@
-<img width="256" height="256" alt="mullvad-browser" src="https://github.com/user-attachments/assets/b7ea6321-0628-4d0d-9cd4-de2d01840559" />
+<img width="128" height="128" alt="mullvad-browser" src="https://github.com/user-attachments/assets/b7ea6321-0628-4d0d-9cd4-de2d01840559" />
 
 # Mullvad Browser for Windows 8+
 
