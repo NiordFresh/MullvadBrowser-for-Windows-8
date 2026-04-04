@@ -23,4 +23,4 @@ Mullvad Browser 14.5.6 (based on Firefox 128.14.0 ESR) is the last version to of
 
 > k64.dll wrapper used in 16.0a5 is created by [EAZY BLACK](https://git.chefkiss.dev/WinRevived/Wrappers/releases/tag/v1.0.0).
 
-<i>by NiordFresh <3</i>
+<i>Mullvad Browser for Windows 8+ by NiordFresh <3</i>
