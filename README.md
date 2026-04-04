@@ -21,4 +21,4 @@ Mullvad Browser 14.5.6 (based on Firefox 128.14.0 ESR) is the last version to of
 
 > *Technically possible by using "MOZ_DISABLE_CONTENT_SANDBOX=1", however, it requires additional patching of xul.dll in order to change the instructions in SHCORE.dll "GetDpiForMonitor" and "GetScaleFactorForMonitor" to "IsOS"... 
 
-> k64.dll wrapper used in 16.0a5 is created by EAZY BLACK
+> k64.dll wrapper used in 16.0a5 is created by (EAZY BLACK)[https://git.chefkiss.dev/WinRevived/Wrappers/releases/tag/v1.0.0].
