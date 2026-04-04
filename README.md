@@ -9,6 +9,8 @@ Mullvad Browser 14.5.6 (based on Firefox 128.14.0 ESR) is the last version to of
 <img width="1366" height="768" alt="banner" src="https://github.com/user-attachments/assets/a849cd0c-a80b-4f18-b571-8796da0e3d7c" />
 <hr>
 
+# Compatibility:
+
 | Version | Windows 8.1 | Windows 8 | Windows 7
 | ------------- | ------------- | ------------- | ------------- |
 | 15.0.4 / ESR140.7.0 | ✅ | ✅ | ❌ |
@@ -16,3 +18,5 @@ Mullvad Browser 14.5.6 (based on Firefox 128.14.0 ESR) is the last version to of
 | 16.0a5 / STD149.0a1 | ✅ | ⚠️* | ❌ |
 
 > *Technically possible by using "MOZ_DISABLE_CONTENT_SANDBOX=1", however, it requires additional patching of xul.dll in order to change the instructions in SHCORE.dll "GetDpiForMonitor" and "GetScaleFactorForMonitor" to "IsOS"... 
+
+> k64.dll wrapper used in 16.0a5 is created by EAZY BLACK
