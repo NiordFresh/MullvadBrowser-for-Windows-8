@@ -24,3 +24,11 @@ Mullvad Browser 14.5.6 (based on Firefox 128.14.0 ESR) is the last version to of
 > *Technically possible by using "MOZ_DISABLE_CONTENT_SANDBOX=1", however, it requires additional patching of xul.dll in order to change the instructions in SHCORE.dll "GetDpiForMonitor" and "GetScaleFactorForMonitor" to "IsOS"... 
 
 > k64.dll wrapper used in 16.0a5 is created by [EAZY BLACK](https://git.chefkiss.dev/WinRevived/Wrappers/releases/tag/v1.0.0).
+
+# Not satisfied? Check out my other ports:
+- [Mullvad Browser for Windows 8+](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8) - Privacy-focused web browser developed to minimize fingerprinting.
+- [Tor Browser for Windows 8+](https://github.com/NiordFresh/TorBrowser-for-Windows-8) - Free, open-source web browser designed to protect user privacy and anonymity.
+- [LibreWolf for Windows 8+](https://github.com/NiordFresh/LibreWolf-for-Windows-8) - Privacy-focused web browser based on Firefox, designed to enhance security.
+- [Zen Browser for Windows 8+](https://github.com/NiordFresh/ZenBrowser-for-Windows-8) - Modern web browser based on the Firefox engine, designed with a focus on simplicity.
+
+> © Powered by NiordFresh. 
