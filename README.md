@@ -6,16 +6,18 @@ Mullvad Browser is a privacy-focused web browser developed in collaboration with
 
 Mullvad Browser 14.5.6 (based on Firefox 128.14.0 ESR) is the last version to officially support Windows 8/8.1. This repository provides a newer, patched version of Mullvad Browser, allowing users to continue using the latest features and security fixes.
 
-<img width="1366" height="768" alt="banner" src="https://github.com/user-attachments/assets/a849cd0c-a80b-4f18-b571-8796da0e3d7c" />
+<img width="1280" height="768" alt="banner" src="https://github.com/user-attachments/assets/badd9a48-49e6-4617-abdf-0c37a076a3eb" />
+
 <hr>
 
 # Compatibility
 
-| Version | Windows 8.1 | Windows 8 | Windows 7
-| ------------- | ------------- | ------------- | ------------- |
-| 15.0.4 / ESR140.7.0 | ✅ | ✅ | ❌ |
-| 15.0.8 / ESR140.9.0 | ✅ | ✅ | ❌ |
-| 16.0a5 / STD149.0a1 | ✅ | ⚠️* | ❌ |
+| Version | Windows 8.1 | Windows 8 | Windows 7 | Download [.7z] | Download [.zip] |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| 15.0.4 / ESR140.7.0 | ✅ | ✅ | ❌ | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/15.0.4_ESR140.7.0/mullvadbrowser_15.0.4_ESR140.7.0_win8_portable-NFX.7z) | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/15.0.4_ESR140.7.0/mullvadbrowser_15.0.4_ESR140.7.0_win8_portable-NFX.zip) |
+| 15.0.8 / ESR140.9.0 | ✅ | ✅ | ❌ | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/15.0.8_ESR140.9.0/mullvadbrowser_15.0.8_ESR140.9.0_win8_portable-NFX.7z) | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/15.0.8_ESR140.9.0/mullvadbrowser_15.0.8_ESR140.9.0_win8_portable-NFX.zip) |
+| 15.0.10 / ESR140.10.0 | ✅ | ✅ | ❌ | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/15.0.10_ESR140.10.0/mullvadbrowser_15.0.10_ESR140.10.0_win8_portable-NFX.7z) | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/15.0.10_ESR140.10.0/mullvadbrowser_15.0.10_ESR140.10.0_win8_portable-NFX.zip) |
+| 16.0a5 / STD149.0a1 | ✅ | ⚠️* | ❌ | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/16.0a5_STD149.0a1/mullvadbrowser_16.0a5_STD149.0a1_win8_portable-NFX.7z) | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/16.0a5_STD149.0a1/mullvadbrowser_16.0a5_STD149.0a1_win8_portable-NFX.zip) |
 
 <hr>
 
