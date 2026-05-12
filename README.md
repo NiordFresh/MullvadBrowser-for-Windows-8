@@ -12,16 +12,18 @@ Mullvad Browser 14.5.6 (based on Firefox 128.14.0 ESR) is the last version to of
 
 # Compatibility
 
-| Version | Windows 8.1 | Windows 8 | Windows 7 | Download [.7z] | Download [.zip] |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| 15.0.4 / ESR140.7.0 | ✅ | ✅ | ❌ | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/15.0.4_ESR140.7.0/mullvadbrowser_15.0.4_ESR140.7.0_win8_portable-NFX.7z) | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/15.0.4_ESR140.7.0/mullvadbrowser_15.0.4_ESR140.7.0_win8_portable-NFX.zip) |
-| 15.0.8 / ESR140.9.0 | ✅ | ✅ | ❌ | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/15.0.8_ESR140.9.0/mullvadbrowser_15.0.8_ESR140.9.0_win8_portable-NFX.7z) | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/15.0.8_ESR140.9.0/mullvadbrowser_15.0.8_ESR140.9.0_win8_portable-NFX.zip) |
-| 15.0.10 / ESR140.10.0 | ✅ | ✅ | ❌ | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/15.0.10_ESR140.10.0/mullvadbrowser_15.0.10_ESR140.10.0_win8_portable-NFX.7z) | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/15.0.10_ESR140.10.0/mullvadbrowser_15.0.10_ESR140.10.0_win8_portable-NFX.zip) |
-| 16.0a5 / STD149.0a1 | ✅ | ⚠️* | ❌ | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/16.0a5_STD149.0a1/mullvadbrowser_16.0a5_STD149.0a1_win8_portable-NFX.7z) | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/16.0a5_STD149.0a1/mullvadbrowser_16.0a5_STD149.0a1_win8_portable-NFX.zip) |
+| Version | Windows 8.1 | Windows 8 | Windows 7 (with VxKex) | Windows 7 | Download [.7z] | Download [.zip] |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| 15.0.4 / ESR140.7.0 | ✅ | ✅ | ⚠️** | ❌ | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/15.0.4_ESR140.7.0/mullvadbrowser_15.0.4_ESR140.7.0_win8_portable-NFX.7z) | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/15.0.4_ESR140.7.0/mullvadbrowser_15.0.4_ESR140.7.0_win8_portable-NFX.zip) |
+| 15.0.8 / ESR140.9.0 | ✅ | ✅ | ⚠️** | ❌ | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/15.0.8_ESR140.9.0/mullvadbrowser_15.0.8_ESR140.9.0_win8_portable-NFX.7z) | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/15.0.8_ESR140.9.0/mullvadbrowser_15.0.8_ESR140.9.0_win8_portable-NFX.zip) |
+| 15.0.10 / ESR140.10.0 | ✅ | ✅ | ⚠️** | ❌ | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/15.0.10_ESR140.10.0/mullvadbrowser_15.0.10_ESR140.10.0_win8_portable-NFX.7z) | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/15.0.10_ESR140.10.0/mullvadbrowser_15.0.10_ESR140.10.0_win8_portable-NFX.zip) |
+| 16.0a5 / STD149.0a1 | ✅ | ⚠️* | ❓ | ❌ | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/16.0a5_STD149.0a1/mullvadbrowser_16.0a5_STD149.0a1_win8_portable-NFX.7z) | [Download](https://github.com/NiordFresh/MullvadBrowser-for-Windows-8/releases/download/16.0a5_STD149.0a1/mullvadbrowser_16.0a5_STD149.0a1_win8_portable-NFX.zip) |
 
 <hr>
 
-> *Technically possible by using "MOZ_DISABLE_CONTENT_SANDBOX=1", however, it requires additional patching of xul.dll in order to change the instructions in SHCORE.dll "GetDpiForMonitor" and "GetScaleFactorForMonitor" to "IsOS"... 
+> *Technically possible by using "MOZ_DISABLE_CONTENT_SANDBOX=1", however, it requires additional patching of xul.dll in order to change the instructions in SHCORE.dll "GetProcessRefenrence" to "IsOS"...
+
+> **Possible by swapping "GetProcessRefenrence" in xul.dll (Import Directory -> SHCORE.dll) to "IsOS"... 
 
 > k64.dll wrapper used in 16.0a5 is created by [EAZY BLACK](https://git.chefkiss.dev/WinRevived/Wrappers/releases/tag/v1.0.0).
 
